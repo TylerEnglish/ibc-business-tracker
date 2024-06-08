@@ -167,6 +167,4 @@ This project is protected under the [SELECT-A-LICENSE](https://choosealicense.co
 
 - List any resources, contributors, inspiration, etc. here.
 
-[**Return**](#-quick-links)
-
 ---
