@@ -1,10 +1,14 @@
 import pandas as pd
+import openpyxl
 
-# Read Excel file with multiple sheets
-xls = pd.read_excel("data/Student_Business_Template_Test.xlsx", sheet_name=['Daily Business Hours', 'Inventory'])
+df = pd.read_excel('data\Student_Business_Test2.xlsx', sheet_name=["Daily Business Hours", "Inventory", "Sales", "Member Actions"])
+dbh_df = df['Daily Business Hours']
+inv_df = df["Inventory"]
+sale_df = df["Sales"]
+member_df = df["Member Actions"]
 
-# Access individual sheets using sheet names
-sheet1_df = xls['Daily Business Hours']
-sheet2_df = xls['Inventory']
-
-sheet1_df
+print(dbh_df)
+print(inv_df)
+print(sale_df)
+print(member_df)
+print(openpyxl.__version__)
