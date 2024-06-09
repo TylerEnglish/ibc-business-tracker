@@ -28,7 +28,7 @@ def app():
     st.header("Demo")
     st.write("Example on Dummy Data")
 
-    df = pd.read_excel('data\Student_Business_Test2.xlsx', sheet_name=["Daily Business Hours", "Inventory", "Sales", "Member Actions"])
+    df = pd.read_excel('../data/Student_Business_Test2.xlsx', sheet_name=["Daily Business Hours", "Inventory", "Sales", "Member Actions"])
     dbh_df = df['Daily Business Hours']
     inv_df = df["Inventory"]
     sale_df = df["Sales"]
