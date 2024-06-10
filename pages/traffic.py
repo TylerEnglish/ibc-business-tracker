@@ -4,5 +4,5 @@ import pandas as pd
 import openpyxl
 
 # Page title
-st.set_page_config(page_title='Traffic Dashboard')
+st.set_page_config(page_title='Traffic Dashboard', page_icon='📊')
 st.title('Traffic Dashboard')
