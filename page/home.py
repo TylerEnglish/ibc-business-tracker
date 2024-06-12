@@ -65,3 +65,13 @@ def app():
 
     st.markdown("[GitHub Repository](https://github.com/TylerEnglish/ibc-business-tracker)")
 
+
+
+def main():
+
+    print("gu")
+
+
+
+if __name__ == "__main__":
+    app()
