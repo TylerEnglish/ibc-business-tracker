@@ -5,9 +5,10 @@ import openpyxl
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# st.set_page_config(page_title='Traffic Dashboard', page_icon='📊')
+st.title('Traffic Dashboard')
+
 def app():
-    st.set_page_config(page_title='Traffic Dashboard', page_icon='📊')
-    st.title('Traffic Dashboard')
 
     if 'uploaded_file' in st.session_state:
         uploaded_file = st.session_state.uploaded_file
